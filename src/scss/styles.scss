@@ -1,0 +1,147 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+$custom-colors: (
+  "mint": #58f9bf,
+  "lime": #d3fe57,
+  "yellow": #fbde4d,
+  "purple": #a78bff,
+  "lightblue": #8cd7e7,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// custom styles
+#nama {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p,
+.button,
+a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#border-foto {
+  border-radius: 3px;
+  border: 2px solid;
+  background-color: #d3fe57;
+  width: 60%;
+}
+
+#link:hover {
+  border-bottom: black 2px solid;
+}
+
+#judul {
+  text-align: center;
+}
+
+#sertif {
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+// components
+.button {
+  font-weight: 500;
+  background-color: black;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  position: relative;
+  bottom: 3px;
+  left: 3px;
+  width: 100%;
+}
+
+.button:hover {
+  bottom: 5px;
+  left: 5px;
+}
+
+.button:active {
+  bottom: 1px;
+  left: 1px;
+}
+
+.outline-button {
+  color: coral;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 150px;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  #border-foto {
+    width: 30%;
+  }
+
+  #sertif {
+    margin-bottom: 60px;
+    margin-top: 30px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  #border-foto {
+    width: 25%;
+  }
+
+  #sertif {
+    margin-bottom: 70px;
+    margin-top: 40px;
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  p,
+.button,
+a {
+  font-weight: 400;
+  font-size: large;
+}
+
+#sertif {
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  #sertif {
+    margin-bottom: 90px;
+    margin-top: 60px;
+  }
+}
+
+@import "bootstrap/scss/bootstrap";
