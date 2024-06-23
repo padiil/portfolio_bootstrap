@@ -1,6 +1,6 @@
-# Nama Proyek
+# portfolio_bootstrap
 
-Portofolio pake bootstrap
+Nyoba bikin portofolio pake bootstrap
 
 ## Deskripsi
 
@@ -16,8 +16,9 @@ Proyek ini bertujuan untuk membuat website portofolio yang responsif dan menarik
 
 ## Instalasi
 
-1. Clone repositori ini: `git clone https://github.com/nama-pengguna/nama-proyek.git`
-2. Buka direktori proyek: `cd nama-proyek`
+1. Clone repositori ini: `git clone https://github.com/padiil/portfolio_bootstrap.git`
+2. Buka direktori proyek: `cd portfolio_bootstrap`
 3. Pasang dependensi: `npm install`
+4. Jalankan vite: `npm run start`
 
 
